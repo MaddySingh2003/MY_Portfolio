@@ -1,0 +1,201 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #075b77;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+header {
+    width: 100%;
+    background-color: #00fff5;
+    padding: 10px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #ff004f;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #075b77, #044d63);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 280px;
+    border-radius: 50%;
+    border: 4px solid #00fff5;
+    box-shadow: 0 0 15px #00fff5;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h1 {
+    color: #00fff5;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Education */
+.education-section {
+    text-align: center;
+    padding: 70px 10%;
+    background-color: #064a61;
+}
+
+.education-section h2 {
+    color: #00fff5;
+    margin-bottom: 40px;
+    font-size: 2.3rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.timeline-item {
+    background: #0c607d;
+    padding: 20px;
+    border-radius: 12px;
+    width: 70%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,255,245,0.2);
+}
+
+/* Social Section */
+.social-section {
+  text-align: center;
+  padding: 80px 10%;
+  background: linear-gradient(135deg, #054357, #063b4a);
+  color: #fff;
+}
+
+.social-section h2 {
+  color: #00fff5;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.social-desc {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #cceeff;
+}
+
+.social-links {
+  margin-bottom: 40px;
+}
+
+.social-links a {
+  color: #00fff5;
+  font-size: 2.2rem;
+  margin: 0 15px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff004f;
+  transform: scale(1.2);
+}
+
+/* Screenshot cards */
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ss-card {
+  background: #075b77;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 255, 245, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ss-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #00fff5;
+}
+
+.ss-card p {
+  padding: 15px;
+  font-size: 0.95rem;
+  color: #d7f7ff;
+  text-align: left;
+}
+
+.ss-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0, 255, 245, 0.4);
+}
+
+/* Footer */
+footer {
+    background-color: #031f27;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+    color: #ccc;
+}
