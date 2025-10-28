@@ -1,8 +1,4 @@
-🧑‍💻 Milan Suryavanshi — Portfolio Website
 
-Welcome to my personal portfolio repository!
-This website showcases my projects, skills, and experience as a Full Stack Developer and AI / Data Science Enthusiast.
-It’s built with modern web technologies and designed to highlight my professional journey.
 
 🚀 Live Demo
 
