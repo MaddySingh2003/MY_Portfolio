@@ -2,9 +2,7 @@
 
 🚀 Live Demo
 
-👉 View Portfolio
-
-(Replace with your actual GitHub Pages or hosting link)
+👉 https://milan-suryavanshi.netlify.app/
 
 🧩 Features
 
